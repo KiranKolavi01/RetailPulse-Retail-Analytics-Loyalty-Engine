@@ -57,13 +57,13 @@ def generate_dashboard():
         loyalty_counts = rfm_df['loyalty_tier'].value_counts()
         
         ax2 = axes[0, 1]
-        loyalty_counts.plot(kind='pie', ax=ax2, autopct='%1.1f%%', startangle=90, colors=['gold', 'silver', 'cd853f'])
+        loyalty_counts.plot(kind='pie', ax=ax2, autopct='%1.1f%%', startangle=90, colors=['gold', 'silver', '#cd853f'])
         ax2.set_title('Customer Loyalty Distribution')
         ax2.set_ylabel('')
         
         # Save individual chart2
         fig2, ax_ind2 = plt.subplots(figsize=(8, 5))
-        loyalty_counts.plot(kind='pie', ax=ax_ind2, autopct='%1.1f%%', startangle=90, colors=['gold', 'silver', 'cd853f'])
+        loyalty_counts.plot(kind='pie', ax=ax_ind2, autopct='%1.1f%%', startangle=90, colors=['gold', 'silver', '#cd853f'])
         ax_ind2.set_title('Customer Loyalty Distribution')
         ax_ind2.set_ylabel('')
         fig2.savefig(os.path.join(OUTPUT_DIR, 'chart2_loyalty_distribution.png'))
