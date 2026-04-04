@@ -1,0 +1,23 @@
+# Python / Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Project Generated Files
+db/
+logs/
+output/
+diagrams/er_diagram.png
+
+# Data Files (Do not commit DB or large datasets)
+data/cleaned/
+data/rejected/
+data/raw/
+
+# Testing artifacts
+test_output.txt
+test_output_utf8.txt
+RETAILPULSE_BACKEND.md
+RETAILPULSE_BACKEND_UTF8.md
