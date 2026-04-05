@@ -2,7 +2,8 @@
 
 A complete data pipeline for retail analytics. Drop in raw CSV files, get clean validated data, customer loyalty scores, RFM segments, predictive insights, and an interactive dashboard — all powered by Python and SQLite with zero external database setup.
 
-![RetailPulse Dashboard](screenshot.png)
+<img width="1456" height="829" alt="Screenshot 2026-04-05 at 8 09 37 pm" src="https://github.com/user-attachments/assets/27fa5994-448a-452c-95b3-9080f9fe08fa" />
+
 
 ---
 
