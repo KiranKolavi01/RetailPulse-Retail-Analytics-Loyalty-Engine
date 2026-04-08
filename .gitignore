@@ -21,3 +21,6 @@ test_output.txt
 test_output_utf8.txt
 RETAILPULSE_BACKEND.md
 RETAILPULSE_BACKEND_UTF8.md
+__pycache__/
+*.pyc
+*.pyo
